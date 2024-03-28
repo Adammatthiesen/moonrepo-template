@@ -1,0 +1,37 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "email": "adam@matthiesen.xyz",
+    "name": "Adam Matthiesen",
+    "url": "https://matthiesen.xyz"
+  },
+  "license": "MIT",
+  "keywords": [
+    "astro"
+  ],
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "files": [
+    "src"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "astro-integration-kit": "0.8.0"
+  },
+  "peerDependencies": {
+    "astro": ">=4.5.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.28"
+  }
+}

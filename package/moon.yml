@@ -1,0 +1,7 @@
+language: 'typescript'
+tags: ['astro', 'typescript']
+
+project: 
+  name: 'package'
+  description: ''
+  maintainers: ['Adammatthiesen']
